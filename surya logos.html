@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Programming Languages</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #1a1a1a;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 30px;
+      max-width: 800px;
+      padding: 20px;
+      background: #222;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .card {
+      text-align: center;
+    }
+
+    .card img {
+      width: 70px;
+      height: auto;
+      margin-bottom: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .label {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt="HTML" />
+      <div class="label">HTML</div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpXaDo9xQfNOh-0nAtgdMzekEMdTbESQoFhQ&s" alt="CSS" />
+      <div class="label">CSS</div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXhjVqtRd6tiqcsSQ7rD6VF7NxI-3VvoR0w&s" alt="JavaScript" />
+      <div class="label">JavaScript</div>
+    </div>
+    <div class="card">
+      <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDWUtEVOS6F1Dm9qgsPflppaqDOOILQRSeMQ&s" alt="c++"/>
+      <div class="label">C++</div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBrtFH3FmdDtKp_7lPw_3U279MmMmWeTlZvA&s" alt="Python" />
+      <div class="label">Python</div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2XRgQAWbWLX7waPRrbDv3aj6zk2SrNSbfBQ&s"alt="Java" />
+      <div class="label">Java</div>
+    </div>
+    <div class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGmApmJzPi5gYDpyyqHy0DGjcCBZncUmguww&s" alt="MySQL" />
+      <div class="label">MySQL</div>
+    </div>
+  </div>
+</body>
+</html>
